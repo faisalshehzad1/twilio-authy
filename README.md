@@ -2,6 +2,8 @@
 
 Twilio with Authy:
 
+Two-factor Authentication (2FA) and OneTouch Authentication
+
 Framework: Codeignitor 3.0
 Authy API Library
 

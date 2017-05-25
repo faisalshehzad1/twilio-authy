@@ -38,7 +38,7 @@ CREATE TABLE `ci_sessions` (
 --
 
 INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
-('4ad0e92666bc2086e4b22fa04e7f77a4d7133fa8', '127.0.0.1', '1495389079', '__ci_last_regenerate|i:1495389066;logged_in|a:5:{s:8:\"users_id\";s:1:\"1\";s:10:\"first_name\";s:6:\"Faisal\";s:9:\"last_name\";s:7:\"Shehzad\";s:8:\"authy_id\";s:8:\"42041589\";s:5:\"email\";s:15:\"hello@gmail.com\";}verified_logged_in|s:1:\"1\";');
+('4ad0e92666bc2086e4b22fa04e7f77a4d7133fa8', '127.0.0.1', '1495389079', '__ci_last_regenerate|i:1495389066;logged_in|a:5:{s:8:\"users_id\";s:1:\"1\";s:10:\"first_name\";s:6:\"Faisal\";s:9:\"last_name\";s:7:\"Shehzad\";s:8:\"authy_id\";s:8:\"420xxx89\";s:5:\"email\";s:15:\"hello@gmail.com\";}verified_logged_in|s:1:\"1\";');
 
 -- --------------------------------------------------------
 
@@ -66,7 +66,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`users_id`, `first_name`, `last_name`, `email`, `password`, `is_active`, `created_at`, `last_login`, `authy_id`, `cellphone`, `country_code`, `authy_status`) VALUES
-(1, 'Faisal', 'Shehzad', 'hello@gmail.com', '5f1ff2ebef62fda52cd062cfbd1eef6cbf8926e0', 1, '2017-05-19 23:26:30', '2017-05-21 17:51:06', '42041589', '506593966', '971', 'approved');
+(1, 'Faisal', 'Shehzad', 'hello@gmail.com', '5f1ff2ebef62fda52cd062cfbd1eef6cbf8926e0', 1, '2017-05-19 23:26:30', '2017-05-21 17:51:06', '420xxx89', '501234567', '971', 'approved');
 
 --
 -- Indexes for dumped tables
